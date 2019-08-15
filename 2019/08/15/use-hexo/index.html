@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>&#39;myfirstblog&#39; | IN ENGLISH?</title>
+  <title>use_hexo | IN ENGLISH?</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="前言使用github pages服务搭建博客的好处有：  全是静态文件，访问速度快； 免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台； 可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；">
+  <meta name="description" content="前言hexo搭建博客的原理：由于github pages存放的都是静态文件，博客存放的不只是文章内容，还有文章列表、分类、标签、翻页等动态内容，假如每次写完一篇文章都要手动更新博文目录和相关链接信息，相信谁都会疯掉，所以hexo所做的就是将这些md文件都放在本地，每次写完文章后调用写好的命令来批量完成相关页面的生成，然后再将有改动的页面提交到github。  注意：hexo有2种_config.y">
 <meta property="og:type" content="article">
-<meta property="og:title" content="&#39;myfirstblog&#39;">
-<meta property="og:url" content="http://yoursite.com/2019/08/10/myfirstblog/index.html">
+<meta property="og:title" content="use_hexo">
+<meta property="og:url" content="http://yoursite.com/2019/08/15/use-hexo/index.html">
 <meta property="og:site_name" content="IN ENGLISH?">
-<meta property="og:description" content="前言使用github pages服务搭建博客的好处有：  全是静态文件，访问速度快； 免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台； 可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；">
+<meta property="og:description" content="前言hexo搭建博客的原理：由于github pages存放的都是静态文件，博客存放的不只是文章内容，还有文章列表、分类、标签、翻页等动态内容，假如每次写完一篇文章都要手动更新博文目录和相关链接信息，相信谁都会疯掉，所以hexo所做的就是将这些md文件都放在本地，每次写完文章后调用写好的命令来批量完成相关页面的生成，然后再将有改动的页面提交到github。  注意：hexo有2种_config.y">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-08-10T02:18:40.514Z">
+<meta property="og:updated_time" content="2019-08-15T03:23:27.299Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="&#39;myfirstblog&#39;">
-<meta name="twitter:description" content="前言使用github pages服务搭建博客的好处有：  全是静态文件，访问速度快； 免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台； 可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；">
+<meta name="twitter:title" content="use_hexo">
+<meta name="twitter:description" content="前言hexo搭建博客的原理：由于github pages存放的都是静态文件，博客存放的不只是文章内容，还有文章列表、分类、标签、翻页等动态内容，假如每次写完一篇文章都要手动更新博文目录和相关链接信息，相信谁都会疯掉，所以hexo所做的就是将这些md文件都放在本地，每次写完文章后调用写好的命令来批量完成相关页面的生成，然后再将有改动的页面提交到github。  注意：hexo有2种_config.y">
   
     <link rel="alternative" href="/atom.xml" title="IN ENGLISH?" type="application/atom+xml">
   
@@ -158,39 +158,107 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-myfirstblog" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-use-hexo" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      &#39;myfirstblog&#39;
+      use_hexo
     </h1>
   
 
         
-        <a href="/2019/08/10/myfirstblog/" class="archive-article-date">
-  	<time datetime="2019-08-10T02:14:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-10</time>
+        <a href="/2019/08/15/use-hexo/" class="archive-article-date">
+  	<time datetime="2019-08-15T02:16:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-08-15</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>使用github pages服务搭建博客的好处有：</p>
-<ol>
-<li>全是静态文件，访问速度快；</li>
-<li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
-<li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；</li>
-</ol>
-<a id="more"></a>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>hexo搭建博客的原理：由于github pages存放的都是静态文件，博客存放的不只是文章内容，还有文章列表、分类、标签、翻页等动态内容，假如每次写完一篇文章都要手动更新博文目录和相关链接信息，相信谁都会疯掉，所以hexo所做的就是将这些md文件都放在本地，每次写完文章后调用写好的命令来批量完成相关页面的生成，然后再将有改动的页面提交到github。</p>
+<ul>
+<li>注意：hexo有2种_config.yml文件，一个是根目录下的全局的_config.yml，一个是各个theme下的 *</li>
+</ul>
+<h1 id="具体事项"><a href="#具体事项" class="headerlink" title="具体事项"></a>具体事项</h1><a id="more"></a>
 
-<ol start="4">
-<li>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；</li>
-<li>博客内容可以轻松打包、转移、发布到其它平台；</li>
-<li>等等；</li>
+<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><ol>
+<li>在电脑的某个地方新建一个名为hexo的文件夹（名字可以随便取），比如我的是F:\Workspaces\hexo，由于这个文件夹将来就作为你存放代码的地方，所以最好不要随便放。</li>
 </ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd /f/Workspaces/hexo/</span><br><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>hexo会自动下载一些文件到这个目录，包括node_modules，目录结构如下图：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g # 生成</span><br><span class="line">$ hexo s # 启动服务</span><br></pre></td></tr></table></figure>
+
+<p>** 执行以上命令之后，hexo就会在public文件夹生成相关html文件，这些文件将来都是要提交到github去的 **</p>
+<h2 id="修改主题"><a href="#修改主题" class="headerlink" title="修改主题"></a>修改主题</h2><ul>
+<li>个人比较喜欢的2个主题：hexo-theme-jekyll 和 hexo-theme-yilia。*</li>
+</ul>
+<ol>
+<li>首先下载这个主题：</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd /f/Workspaces/hexo/</span><br><span class="line">$ git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia</span><br></pre></td></tr></table></figure>
+
+<p>2.修改_config.yml中的theme: landscape改为theme: yilia，然后重新执行hexo g来重新生成。</p>
+<ul>
+<li>如果出现一些莫名其妙的问题，可以先执行hexo clean来清理一下public的内容，然后再来重新生成和发布。*</li>
+</ul>
+<h2 id="上传之前"><a href="#上传之前" class="headerlink" title="上传之前"></a>上传之前</h2><p>** 在上传代码到github之前，一定要记得先把你以前所有代码下载下来（虽然github有版本管理，但备份一下总是好的），因为从hexo提交代码时会把你以前的所有代码都删掉。 **</p>
+<h2 id="上传到github"><a href="#上传到github" class="headerlink" title="上传到github"></a>上传到github</h2><p>如果你一切都配置好了，发布上传很容易，一句hexo d就搞定，当然关键还是你要把所有东西配置好。</p>
+<h3 id="首先，ssh-key肯定要配置好。"><a href="#首先，ssh-key肯定要配置好。" class="headerlink" title="首先，ssh key肯定要配置好。"></a>首先，ssh key肯定要配置好。</h3><h3 id="其次，配置-config-yml中有关deploy的部分："><a href="#其次，配置-config-yml中有关deploy的部分：" class="headerlink" title="其次，配置_config.yml中有关deploy的部分："></a>其次，配置_config.yml中有关deploy的部分：</h3><ul>
+<li><p>正确写法：*</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:liuxianan/liuxianan.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>错误写法：*</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: github</span><br><span class="line">  repository: https://github.com/liuxianan/liuxianan.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="还需要安装一个插件："><a href="#还需要安装一个插件：" class="headerlink" title="还需要安装一个插件："></a>还需要安装一个插件：</h3><p><code>npm install hexo-deployer-git --save</code></p>
+<p>** 其它命令不确定，部署这个命令一定要用git bash，否则会提示Permission denied (publickey).**</p>
+<h3 id="打开你的git-bash，输入hexo-d就会将本次有改动的代码全部提交，没有改动的不会："><a href="#打开你的git-bash，输入hexo-d就会将本次有改动的代码全部提交，没有改动的不会：" class="headerlink" title="打开你的git bash，输入hexo d就会将本次有改动的代码全部提交，没有改动的不会："></a>打开你的git bash，输入hexo d就会将本次有改动的代码全部提交，没有改动的不会：</h3><h2 id="保留CNAME、README-md等文件"><a href="#保留CNAME、README-md等文件" class="headerlink" title="保留CNAME、README.md等文件"></a>保留CNAME、README.md等文件</h2><ul>
+<li><p>提交之后网页上一看，发现以前其它代码都没了，此时不要慌，一些非md文件可以把他们放到source文件夹下，这里的所有文件都会原样复制（除了md文件）到public目录的：*</p>
+</li>
+<li><p>由于hexo默认会把所有md文件都转换成html，包括README.md，所有需要每次生成之后、上传之前，手动将README.md复制到public目录，并删除README.html。*</p>
+</li>
+</ul>
+<h2 id="常用hexo命令"><a href="#常用hexo命令" class="headerlink" title="常用hexo命令"></a>常用hexo命令</h2><ol>
+<li>** 常见命令 **</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;postName&quot; #新建文章</span><br><span class="line">hexo new page &quot;pageName&quot; #新建页面</span><br><span class="line">hexo generate #生成静态页面至public目录</span><br><span class="line">hexo server #开启预览访问端口（默认端口4000，&apos;ctrl + c&apos;关闭server）</span><br><span class="line">hexo deploy #部署到GitHub</span><br><span class="line">hexo help  # 查看帮助</span><br><span class="line">hexo version  #查看Hexo的版本</span><br></pre></td></tr></table></figure>
+
+<p>2.* 缩写：*</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">hexo n == hexo new</span><br><span class="line">hexo g == hexo generate</span><br><span class="line">hexo s == hexo server</span><br><span class="line">hexo d == hexo deploy</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li><em>组合命令：</em><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo s -g #生成并本地预览</span><br><span class="line">hexo d -g #生成并上传</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h2 id="config-yml"><a href="#config-yml" class="headerlink" title="_config.yml"></a>_config.yml</h2><p><em>这里面都是一些全局配置，每个参数的意思都比较简单明了，所以就不作详细介绍了。</em><br><strong>需要特别注意的地方是，冒号后面必须有一个空格，否则可能会出问题。</strong></p>
+<h2 id="写博客"><a href="#写博客" class="headerlink" title="写博客"></a>写博客</h2><p>定位到我们的hexo根目录，执行命令：</p>
+<p><code>hexo new &#39;my-first-blog&#39;</code></p>
+<p><em>hexo会帮我们在_posts下生成相关md文件：</em></p>
+<p><em>我们只需要打开这个文件就可以开始写博客了，默认生成如下内容：</em></p>
+<p><em>当然你也可以直接自己新建md文件，用这个命令的好处是帮我们自动生成了时间。</em></p>
+<table>
+<thead>
+<tr>
+<th>test1</th>
+<th>test2</th>
+<th>test3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>hope</td>
+<td>\never</td>
+<td>give up</td>
+</tr>
+</tbody></table>
 
       
 
@@ -270,7 +338,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/08/10/myfirstblog/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/08/15/use-hexo/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -284,18 +352,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/08/15/use-hexo/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          use_hexo
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/08/10/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Hello World</div>
+    <a href="/2019/08/10/myfirstblog/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">&#39;myfirstblog&#39;</div>
       <i class="icon-circle-right"></i>
     </a>
   
